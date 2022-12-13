@@ -25,10 +25,8 @@
   <p align="center">
     The Flashcard App is a project for Thinkful's Full Stack Engineering program. It is a simple flashcard app that allows users to create decks of flashcards for a variety of topics. Users can then study the created decks and test their knowledge.
     <br />
-    <a href="https://github.com/BountyFiveO/Thinkful-Flashcard-App"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/BountyFiveO/Thinkful-Flashcard-App">View Project Demo</a>
+    <a href="https://flashcard.engineerpatterson.com">View Project Demo</a>
     ·
     <a href="https://github.com/BountyFiveO/Thinkful-Flashcard-App/issues">Report Bug</a>
     ·

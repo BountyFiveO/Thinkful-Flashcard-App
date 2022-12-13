@@ -1,4 +1,10 @@
-
+.jumbotron {
+    margin: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    box-shadow: rgb(137, 137, 137) 0px 2px 4px 0px;
+}
 form {
     margin-left: 5px;
 }
@@ -26,89 +32,37 @@ a.btn:hover  {
 }   
 
 .card {
-    margin: 5px;
+    margin: auto;
     width: 100%;
     box-shadow: rgb(137, 137, 137) 0px 2px 4px 0px;
     
 }
 
-
-.ep-logo {
+.logo-container {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    float: right;
-    margin: 5px;
-
-}
-
-.ep-logo img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 100px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    /* margin: space-around; */
 }
 
 
-@media all and (max-width: 551px) {
-    img.ep-logo {
-        display: block;
-        align-items: center;
-        margin: 5px;
-        height: 50%;
-        width: 50%;
-        margin-right: 120px;
-        margin-left: auto;
-    }
-
-    h1.display-4 {
-        font-size: 2.0rem;
-text-align: center;
-    }
-p.lead {
-    font-size: 1.0rem;
-    text-align: center;
-}
-}
-
-@media all and (min-width: 552px) {
-    img.ep-logo {
-        display: block;
-        align-items: center;
-        margin: 5px;
-        height: 75%;
-        width: 75%;
-        margin: space-around;
-    }
-
-    h1.display-4 {
-        font-size: 2.2rem;
-    }
-}
-
-@media all and (max-width: 1080px) {
-    img.ep-logo {
-        display: block;
-        align-items: center;
-        margin: 5px;
-        height: auto;
-        width: 100%;
-        margin: space-around;
-    }
-
-    h1.display-4 {
-        font-size: 2.2rem;
-    }
-}
-@media all and (min-width: 1800px) {
-    img.ep-logo {
+ @media all and (max-width: 520px) {
+    .logo-container {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 100px;
-        height: auto;
-        width: 300px;
+        margin: 5px;
+        height: auto; 
+         width: 100%;
+        margin: space-around;
+        padding: auto;
     }
 
     h1.display-4 {
         font-size: 2.2rem;
     }
 }
+
