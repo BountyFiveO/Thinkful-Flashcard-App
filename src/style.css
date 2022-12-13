@@ -42,7 +42,7 @@ a.btn:hover  {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px;
+    margin: 5px;
     height: auto;
     width: 100%;
     margin: space-around;
