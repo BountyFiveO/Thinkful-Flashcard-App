@@ -158,7 +158,7 @@ Project Link: [Thinkful-Flashcard-App](https://github.com/BountyFiveO/Thinkful-F
 [stars-shield]: https://img.shields.io/github/stars/BountyFiveO/Thinkful-Flashcard-App.svg?style=for-the-badge
 [stars-url]: https://github.com/BountyFiveO/Thinkful-Flashcard-App/stargazers
 [license-shield]: https://img.shields.io/github/license/BountyFiveO/Thinkful-Flashcard-App.svg?style=for-the-badge
-[license-url]: https://github.com/BountyFiveO/Thinkful-Flashcard-App/blob/main/LICENSE.txt
+[license-url]: https://github.com/BountyFiveO/Thinkful-Flashcard-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/engineerpatterson
 [product-screenshot]: https://engineerpatterson.com/images/ep-logo.png
