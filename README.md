@@ -21,11 +21,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BountyFiveO/Thinkful-Flashcard-App---Capstone">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://engineerpatterson.com">
+    <img src="https://engineerpatterson.com/images/ep-logo.png" alt="Logo" width="400" height="200">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center"></h3>
 
   <p align="center">
     project_description
