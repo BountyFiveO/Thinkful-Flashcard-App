@@ -132,21 +132,19 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shawn - [email](https://twitter.com/Linkedin_handle) - shawn@engineerpatterson.com
+Shawn - [Email Me](mailto:shawn@engineerpatterson.com)
 
-Project Link: [Thinkful-Flashcard-App](https://github.com/BountyFiveO/Thinkful-Flashcard-App)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [Thinkful-Flashcard-App](https://flashcard.engineerpatterson.com)
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments -->
 
+<!-- * []()
 * []()
 * []()
-* []()
-
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
