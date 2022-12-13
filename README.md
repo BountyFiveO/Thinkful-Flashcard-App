@@ -80,10 +80,8 @@
 
 * [![Javascript][Javascript]][Javascript-url]
 * [![React][React.js]][React-url]
-
-
-
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,34 +94,6 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-<!-- ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g -->
-  ```
-
-<!-- ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/BountyFiveO/Thinkful-Flashcard-App.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -133,22 +103,7 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
-<!-- ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature -->
-
 See the [open issues](https://github.com/BountyFiveO/Thinkful-Flashcard-App/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -179,9 +134,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Shawn - [email](https://twitter.com/Linkedin_handle) - shawn@engineerpatterson.com
 
-Project Link: [https://github.com/BountyFiveO/Thinkful-Flashcard-App](https://github.com/BountyFiveO/Thinkful-Flashcard-App)
+Project Link: [Thinkful-Flashcard-App](https://github.com/BountyFiveO/Thinkful-Flashcard-App)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,4 +168,13 @@ Project Link: [https://github.com/BountyFiveO/Thinkful-Flashcard-App](https://gi
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[engineerpatterson.com]: https://img.shields.io/badge/Engineerpatterson-000000?style=for-the-badge&logo=EngineerPatterson&logoColor=white
+[engineerpatterson-url]: https://engineerpatterson.com
+[email]: https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white
+[email-url]: mailto:shawn@engineerpatterson.com
+[HTML]: https://img.shields.io/badge/HTML-000000?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[CSS]: https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
 
