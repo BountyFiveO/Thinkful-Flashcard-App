@@ -9,8 +9,8 @@ function Header() {
 					src="https://engineerpatterson.com/images/ep-logo.png"
 					alt="Engineer Patterson Logo"
 					className="ep-logo"
-					width="428px"
-					height="100px"
+					// width="428px"
+					// height="100px"
 				/>
 			</a>
 			<div className="container text-white">
