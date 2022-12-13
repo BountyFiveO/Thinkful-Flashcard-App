@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://engineerpatterson.com">
-    <img src="https://engineerpatterson.com/images/ep-logo.png" alt="Logo" width="400" height="200">
+    <img src="https://engineerpatterson.com/images/ep-logo.png" alt="Logo" width="600" height="200">
   </a>
 
 <h3 align="center"></h3>
