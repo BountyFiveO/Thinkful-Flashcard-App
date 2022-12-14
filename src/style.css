@@ -82,9 +82,9 @@ a.btn:hover  {
 
     .row {
         display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+        flex-wrap: nowrap;
+        /* margin-right: -15px;
+        margin-left: -15px; */
     }
     
 }
