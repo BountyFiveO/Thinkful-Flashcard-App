@@ -64,5 +64,29 @@ a.btn:hover  {
     h1.display-4 {
         font-size: 2.2rem;
     }
+@media all and (min-width: 992px) {
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        height: auto; 
+         width: 100%;
+        margin: space-around;
+        padding: auto;
+    }
+
+    h1.display-4 {
+        font-size: 2.2rem;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+}
 }
 
