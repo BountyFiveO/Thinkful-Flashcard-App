@@ -3,7 +3,7 @@
  * The default values is overridden by the `API_BASE_URL` environment variable.
  */
 // const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:8080";
-const API_BASE_URL = process.env.API_BASE_URL || "https://flashcard.engineerpatterson.com";
+const API_BASE_URL = process.env.API_BASE_URL || "http://flashcard.engineerpatterson.com";
 
 /**
  * Defines the default headers for these functions to work with `json-server`
