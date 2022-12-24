@@ -1,5 +1,5 @@
 {
   "port": 8080,
-  "watch": false,
-  "static": "./docs/api"
+  "watch": true,
+  "static": "./data"
 }
