@@ -851,14 +851,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run build:server",
+    "build:server": "json-server --no-cors ./data/db.json",
     "eject": "react-scripts eject",
-    "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
+    "start": "npm run start && npm run start:server",
     "start:react": "react-scripts start",
     "start:server": "json-server --no-cors ./data/db.json",
     "test": "react-scripts test",
     "test:solution": "npm run docker:build && npm run docker:test"
-
   },
   "repository": {
     "type": "git",
@@ -870,5 +870,17 @@
   "bugs": {
     "url": "https://github.com/BountyFiveO/Thinkful-Flashcard-App/issues"
   },
-  "homepage": "https://github.com/BountyFiveO/Thinkful-Flashcard-App#readme"
+  "homepage": "https://github.com/BountyFiveO/Thinkful-Flashcard-App#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
