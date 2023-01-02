@@ -851,7 +851,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
+    "start:react": "react-scripts start",
+    "start:server": "json-server --no-cors ./data/db.json",
+    "test": "react-scripts test",
+    "test:solution": "npm run docker:build && npm run docker:test"
+
   },
   "repository": {
     "type": "git",
