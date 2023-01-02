@@ -854,8 +854,7 @@
     "build": "react-scripts build && npm run build:server",
     "build:server": "json-server --no-cors ./data/db.json",
     "eject": "react-scripts eject",
-    "start": "npm start",
-    "start:react": "react-scripts start",
+    "start": "react-scripts start",
     "start:server": "json-server --no-cors ./data/db.json",
     "test": "react-scripts test",
     "test:solution": "npm run docker:build && npm run docker:test"
