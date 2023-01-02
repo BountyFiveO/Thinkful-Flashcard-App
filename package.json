@@ -2,10 +2,24 @@
   "name": "thinkful-flashcard-app",
   "version": "1.0.0",
   "description": "<!-- PROJECT SHIELDS -->\r <!--\r *** I'm using markdown \"reference style\" links for readability.\r *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).\r *** See the bottom of this document for the declaration of the reference variables\r *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.\r *** https://www.markdownguide.org/basic-syntax/#reference-style-links\r -->",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },  
+  "keywords": [
+    "Flashcard Study", 
+    "Thinkful Flashcard", 
+    "React", 
+    "Node", 
+    "Express", 
+    "PostgreSQL", 
+    "Bootstrap", 
+    "JavaScript", 
+    "HTML", 
+    "CSS"
+  ],
   "dependencies": {
     "acorn-globals": "^6.0.0",
     "abab": "^2.0.6",
@@ -849,22 +863,15 @@
     "yargs-parser": "^13.1.2",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "build": "react-scripts build && npm run build:server",
-    "build:server": "json-server --no-cors ./data/db.json",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "start:server": "json-server --no-cors ./data/db.json",
-    "test": "react-scripts test",
-    "test:solution": "npm run docker:build && npm run docker:test"
+  "devDependencies": {
+    "nodemon":"2.0.20"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BountyFiveO/Thinkful-Flashcard-App.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Engineer Patterson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BountyFiveO/Thinkful-Flashcard-App/issues"
