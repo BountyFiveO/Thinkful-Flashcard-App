@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../Header";
+import Header from "./src/Header";
 import NotFound from "./NotFound";
-import Home from "../Home";
+import Home from "./src/Home";
 import CreateDeck from "./Layout/Decks/CreateDeck";
 import DeckRoutes from "./Layout/Decks/DeckRoutes";
 import { Switch, Route } from "react-router-dom";

@@ -1,5 +1,5 @@
 {
-    "name": "flashcard-study-app",
+    "name": "backend",
     "version": "1.0.0",
     "engines": {
       "node": "18.12.1"
@@ -8,6 +8,7 @@
     "main": "server.js",
     "scripts": {
       "start": "node server",
+      "start:backend": "npm --prefix ./backend start",
       "server": "nodemon server.js",
       "client": "npm start --prefix client"
     },
