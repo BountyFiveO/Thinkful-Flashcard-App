@@ -850,7 +850,7 @@
     "build": "npm -prefix client run build",
     "preinstall": "cd ./backend && npm install",
     "install": "cd ./client && npm install",
-    "start": "npm run start:backend && npm run start:client",
+    "start": "npx concurrently 'npm run start:backend' 'npm run start:client'",
     "start:backend": "npm --prefix ./backend start",
     "start:client": "npm --prefix ./client start",
     "start:dev": "npx concurrently 'npm run start:dev --prefix ./backend' 'npm start --prefix ./client'",
