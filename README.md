@@ -16,9 +16,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="client/src/public/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  
+    <img src="logo.png" alt="Logo" width="80" height="80">
 
 <h3 align="center">Thinkful Flashcard App</h3>
 
