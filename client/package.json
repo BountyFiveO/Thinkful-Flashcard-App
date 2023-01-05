@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "npm run start:client",
-    "build": "npm run build",
+    "build": "npm -prefix client run build",
     "test": "npm run test:client && npm run test:backend"
   },
   "keywords": [],
