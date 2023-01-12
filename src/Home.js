@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import DeckInfoCard from "./home/DeckInfoCard";
 import { listDecks, deleteDeck } from "./utils/api/index";
 import StructureInfoCard from "./home/DeckInfoCardStructure";
+import "./style.css"
 
 //-------------------END IMPORTS-----------------
 

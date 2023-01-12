@@ -7,7 +7,7 @@ function DeckInfoCard({ name, description, id, cards, handleDeleteDeck }) {
       <div className='card-body'>
         <div className='deck-card-header'>
           <h5 className='card-title '>{name}</h5>
-          <p className='card-subtitle text-muted'>{cards.length} cards</p>
+          <p className='card-subtitle text-muted'>{cards?.length} cards</p>
         </div>
         <p className='card-text'>{description}</p>
         <div className='deck-card-buttons'>

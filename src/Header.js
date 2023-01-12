@@ -1,5 +1,6 @@
 // -------------START IMPORTS-------------
 import React from "react";
+import "./style.css";
 // -------------END IMPORTS-------------
 
 // -------------START COMPONENT-------------

@@ -15,16 +15,44 @@
       "id": 3,
       "name": "Testing",
       "description": "Will be used for testing this app"
+    },
+    {
+      "id": 4,
+      "name": "React Hooks",
+      "description": "React Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class."
+    },
+    {
+      "id": 5,
+      "name": "React Context",
+      "description": "Context provides a way to pass data through the component tree without having to pass props down manually at every level."
+    },
+    {
+      "id": 6,
+      "name": "React Forms",
+      "description": "Forms are essential for controlling user input, gathering information to submit to a server, and setting up basic interactivity with a website."
+    },
+    {
+      "id": 7,
+      "name": "React State",
+      "description": "State is the heart of React. It allows you to create components that manage their own data, respond to user input, and hold complex UIs."
+    },
+    {
+      "id": 8,
+      "name": "React Props",
+      "description": "Props are how components talk to each other. They are passed to components via HTML attributes."
+    },
+    {
+      "id": 9,
+      "name": "React Components",
+      "description": "Components are the core building block of React. They are like JavaScript functions that return React elements."
+    },
+    {
+      "id": 10,
+      "name": "React",
+      "description": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces."
     }
   ],
   "cards": [
-    {
-      CREATE TABLE IF NOT EXISTS decks (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT NOT NULL,
-      description TEXT NOT NULL
-  );
-    },
     {
       "id": 2,
       "front": "How do you modify the state of a different React component?",
@@ -49,22 +77,66 @@
       "deckId": 2,
       "id": 5
     },
-    [],
-    [],
-    [],
     {
-      "front": "Test question #1",
-      "back": "Test Answer #1",
-      "deckId": 3,
+        "front": "What is the difference between a functional component and a class component?",
+        "back": "A functional component is a function that returns JSX. A class component is a class that extends React.Component and has a render method that returns JSX.",
+        "deckId": 1,
+        "id": 6
+    },
+    {
+      "front": "What is the difference between a controlled component and an uncontrolled component?",
+      "back": "A controlled component is a component that has its state controlled by React. An uncontrolled component is a component that has its state controlled by the DOM.",
+      "deckId": 1,
+      "id": 7
+    }, 
+    {
+      "front": "What is the difference between a stateless component and a stateful component?",
+      "back": "A stateless component is a component that does not have state. A stateful component is a component that has state.",
+      "deckId": 1,
+      "id": 8
+    },
+    {
+      "front": "What is the difference between a presentational component and a container component?",
+      "back": "A presentational component is a component that is concerned with how things look. A container component is a component that is concerned with how things work.",
+      "deckId": 1,
+      "id": 9
+    },
+    {
+      "front": "What is the difference between a smart component and a dumb component?",
+      "back": "A smart component is a component that has state. A dumb component is a component that does not have state.",
+      "deckId": 1,
+      "id": 10
+    },
+    {
+      "front": "What is the difference between a controlled component and an uncontrolled component?",
+      "back": "A controlled component is a component that has its state controlled by React. An uncontrolled component is a component that has its state controlled by the DOM.",
+      "deckId": 1,
+      "id": 11
+    },
+    {
+      "front": "What is the difference between a stateless component and a stateful component?",
+      "back": "A stateless component is a component that does not have state. A stateful component is a component that has state.",
+      "deckId": 1,
+      "id": 12
+    },
+    {
+      "front": "What is the difference between a presentational component and a container component?",
+      "back": "A presentational component is a component that is concerned with how things look. A container component is a component that is concerned with how things work.",
+      "deckId": 1,
       "id": 13
     },
-    [],
-    [],
     {
-      "front": "",
-      "back": "",
-      "deckId": 3,
-      "id": 16
+      "front": "What is the difference between a smart component and a dumb component?",
+      "back": "A smart component is a component that has state. A dumb component is a component that does not have state.",
+      "deckId": 1,
+      "id": 14
+    },
+    {
+      "front": "What is the difference between a controlled component and an uncontrolled component?",
+      "back": "A controlled component is a component that has its state controlled by React and an uncontrolled component is a component that has its state controlled by the DOM.",
+      "deckId": 1,
+      "id": 15
     }
+    
   ]
 }
