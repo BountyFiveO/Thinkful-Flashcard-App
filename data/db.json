@@ -19,13 +19,6 @@
   ],
   "cards": [
     {
-      CREATE TABLE IF NOT EXISTS decks (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT NOT NULL,
-      description TEXT NOT NULL
-  );
-    },
-    {
       "id": 2,
       "front": "How do you modify the state of a different React component?",
       "back": "Not at all! State is visible to the component only.",
