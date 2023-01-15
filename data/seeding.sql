@@ -63,80 +63,46 @@ CREATE TABLE IF NOT EXISTS cards (
     FOREIGN KEY (deck_id) REFERENCES decks(id)
 );
 INSERT INTO cards
-    (id, back, deck_id)
+    (id, front, back, deck_id)
     VALUES  ( 
+      1,
       'How do you modify the state of a different React component?',
       'Not at all! State is visible to the component only.',
       1
     ),  
     (  
+      2,
      'How do you pass data 'down' to a React child component?',
       'As properties or props',
       1
     ),
     (
-      'What does <Switch> do?',
-      'Renders the first matching child <Route> ',
-      2,
-      5
+      3,
+      'How do you pass data 'up' to a React parent component?',
+      'Not at all! State is visible to the component only.',
+      1
     ),
     (
-        'What is the difference between a functional component and a class component?',
-        'A functional component is a function that returns JSX. A class component is a class that extends React.Component and has a render method that returns JSX.',
-        1,
-        6
+      4,
+      'How do you pass data 'down' to a React child component?',
+      'As properties or props',
+      2
     ),
     (
-      'What is the difference between a controlled component and an uncontrolled component?',
-      'A controlled component is a component that has its state controlled by React. An uncontrolled component is a component that has its state controlled by the DOM.',
-      1,
-     7
-    ), 
-    (
-      'What is the difference between a stateless component and a stateful component?',
-      'A stateless component is a component that does not have state. A stateful component is a component that has state.',
-      1,
-      8
+      5,
+      'How do you pass data 'up' to a React parent component?',
+      'Not at all! State is visible to the component only.',
+      2
     ),
     (
-      'What is the difference between a presentational component and a container component?',
-      'A presentational component is a component that is concerned with how things look. A container component is a component that is concerned with how things work.',
-      1,
-     9
+      6,
+      'How do you pass data 'down' to a React child component?',
+      'As properties or props',
+      3
     ),
     (
-      'What is the difference between a smart component and a dumb component?',
-      'A smart component is a component that has state. A dumb component is a component that does not have state.',
-      1,
-      10
+      7,
+      'How do you pass data 'up' to a React parent component?',
+      'Not at all! State is visible to the component only.',
+      3
     ),
-    (
-      'What is the difference between a controlled component and an uncontrolled component?',
-      'A controlled component is a component that has its state controlled by React. An uncontrolled component is a component that has its state controlled by the DOM.',
-      1,
-      11
-    ),
-    (
-      'What is the difference between a stateless component and a stateful component?',
-      'A stateless component is a component that does not have state. A stateful component is a component that has state.',
-      1,
-      12
-    ),
-    (
-      'What is the difference between a presentational component and a container component?',
-      'A presentational component is a component that is concerned with how things look. A container component is a component that is concerned with how things work.',
-      1,
-      13
-    ),
-    (
-      'What is the difference between a smart component and a dumb component?',
-      'A smart component is a component that has state. A dumb component is a component that does not have state.',
-      1,
-      14
-    ),
-    (
-      'What is the difference between a controlled component and an uncontrolled component?',
-      'A controlled component is a component that has its state controlled by React and an uncontrolled component is a component that has its state controlled by the DOM.',
-      1,
-      15
-    )
