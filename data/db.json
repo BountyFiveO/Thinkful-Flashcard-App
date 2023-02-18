@@ -6,53 +6,53 @@
       "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation. "
     },
     {
-      "id": 2,
       "name": "React Router",
-      "description": "React Router is a collection of navigational components that compose declaratively with your application."
-      
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Testing",
-      "description": "Will be used for testing this app"
+      "name": "Deck With Too Few Cards",
+      "description": "this deck is testing not having enough cards",
+      "id": 4
     },
     {
-      "id": 4,
-      "name": "React Hooks",
-      "description": "React Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class."
+      "name": "My Testing Deck!",
+      "description": "This is a sample deck for testing various things.!!",
+      "id": 5
     },
     {
-      "id": 5,
-      "name": "React Context",
-      "description": "Context provides a way to pass data through the component tree without having to pass props down manually at every level."
+      "name": "A Deck With a Really Long Name and Description. Some Might Say Too Long",
+      "description": "This is a deck with a long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 6
     },
     {
-      "id": 6,
-      "name": "React Forms",
-      "description": "Forms are essential for controlling user input, gathering information to submit to a server, and setting up basic interactivity with a website."
+      "name": "0 Card Deck",
+      "description": "this deck has no cards.",
+      "id": 7
     },
     {
-      "id": 7,
-      "name": "React State",
-      "description": "State is the heart of React. It allows you to create components that manage their own data, respond to user input, and hold complex UIs."
+      "name": "One Card Deck",
+      "description": "This deck has one card.",
+      "id": 8
     },
     {
-      "id": 8,
-      "name": "React Props",
-      "description": "Props are how components talk to each other. They are passed to components via HTML attributes."
+      "name": "'90s Sitcom Trivia",
+      "description": "It's time to brush up on your '90s sitcom knowledge. ",
+      "id": 10
     },
     {
-      "id": 9,
-      "name": "React Components",
-      "description": "Components are the core building block of React. They are like JavaScript functions that return React elements."
-    },
-    {
-      "id": 10,
-      "name": "React",
-      "description": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces."
+      "name": "HTTP Response Codes",
+      "description": "Study the status codes",
+      "id": 11
     }
   ],
   "cards": [
+    {
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOM.",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1
+    },
     {
       "id": 2,
       "front": "How do you modify the state of a different React component?",
@@ -64,6 +64,378 @@
       "front": "How do you pass data 'down' to a React child component?",
       "back": "As properties or props",
       "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "cards": [],
+      "front": "b",
+      "back": "b",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "front": "abcdef",
+      "back": "uvwxyz",
+      "id": 8
+    },
+    {
+      "front": "card 1",
+      "back": "card 1 back",
+      "deckId": 4,
+      "id": 13
+    },
+    {
+      "front": "2",
+      "back": "2b",
+      "deckId": 4,
+      "id": 14
+    },
+    {
+      "front": "1A",
+      "back": "1B",
+      "id": 15,
+      "deckId": 5
+    },
+    {
+      "front": "2A",
+      "back": "2B",
+      "deckId": 5,
+      "id": 16
+    },
+    {
+      "front": "3A",
+      "back": "3B",
+      "deckId": 5,
+      "id": 17
+    },
+    {
+      "front": "4A",
+      "back": "4B",
+      "deckId": 5,
+      "id": 18
+    },
+    {
+      "front": "5A",
+      "back": "5B",
+      "deckId": 5,
+      "id": 19
+    },
+    {
+      "front": "6A",
+      "back": "6B",
+      "deckId": 5,
+      "id": 20
+    },
+    {
+      "front": "7A",
+      "back": "7B",
+      "deckId": 5,
+      "id": 21
+    },
+    {
+      "front": "A normal card",
+      "back": "A normal card's back",
+      "deckId": 6,
+      "id": 22
+    },
+    {
+      "front": "A card with long text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "back": "The back of a card with long text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 23,
+      "deckId": 6
+    },
+    {
+      "front": "fdggh",
+      "back": "dfghd",
+      "deckId": 6,
+      "id": 24
+    },
+    {
+      "front": "dfsgs",
+      "back": "sdfgs",
+      "deckId": 6,
+      "id": 25
+    },
+    {
+      "front": "card front",
+      "back": "card back",
+      "deckId": 8,
+      "id": 26
+    },
+    {
+      "front": "Where was the Will Smith’s character “born and raised” in The Fresh Prince of Bel-Air?",
+      "back": "West Philadelphia",
+      "deckId": 10,
+      "id": 29
+    },
+    {
+      "front": "What was the name of the pet monkey that Ross had during the early part of the Friends series?",
+      "back": "Marcel",
+      "deckId": 10,
+      "id": 30
+    },
+    {
+      "front": "What was the name of the main female lead in the TV show, Boy Meets World?",
+      "back": "Topanga",
+      "deckId": 10,
+      "id": 31
+    },
+    {
+      "front": "What was the catch phrase of Michelle Tanner in Full House?",
+      "back": "\"You got it, dude.\"",
+      "deckId": 10,
+      "id": 32
+    },
+    {
+      "front": "What was the name of the Jack Russell Terrier that was featured on Frasier?",
+      "back": "Eddie",
+      "deckId": 10,
+      "id": 33
+    },
+    {
+      "front": "What was the candy that Kramer dropped over the side while watching a medical procedure in Seinfeld?",
+      "back": "Junior Mints",
+      "deckId": 10,
+      "id": 34
+    },
+    {
+      "front": "What was the name of the school principle from Saved by the Bell?",
+      "back": "Mr. Belding",
+      "deckId": 10,
+      "id": 35
+    },
+    {
+      "front": "What is the catchphrase from the original TV series, The X-Files?",
+      "back": "\"The Truth is Out There\"",
+      "deckId": 10,
+      "id": 36
+    },
+    {
+      "front": "What was the name of Tim “The Toolman” Taylor’s handyman show from Home Improvement?",
+      "back": "Tool Time",
+      "deckId": 10,
+      "id": 37
+    },
+    {
+      "front": "What was the name of the restaurant that featured loose meat in the ‘90s sitcom, Roseanne?",
+      "back": "The Lanford Lunchbox",
+      "deckId": 10,
+      "id": 38
+    },
+    {
+      "front": "What was the name of Eric’s mother in the hit sitcom, That ‘70s Show?",
+      "back": "Kitty",
+      "deckId": 10,
+      "id": 39
+    },
+    {
+      "front": "What was the catchphrase of the baby in the television series, Dinosaurs?",
+      "back": "\"Not the Mama!\"",
+      "deckId": 10,
+      "id": 40
+    },
+    {
+      "front": "What was the job that Dick Soloman worked while on Earth in Third Rock From the Sun?",
+      "back": "Professor of Physics",
+      "deckId": 10,
+      "id": 41
+    },
+    {
+      "front": "What was the name of the clown character from the series, In Living Color?",
+      "back": "Homey the Clown",
+      "deckId": 10,
+      "id": 42
+    },
+    {
+      "front": "What was the name of the alter ego character for Steve Urkel from Family Matters?",
+      "back": "Stefan",
+      "deckId": 10,
+      "id": 43
+    },
+    {
+      "front": "Whose car was the Seinfeld gang looking for in the infamous parking garage episode?",
+      "back": "Kramer",
+      "deckId": 10,
+      "id": 44
+    },
+    {
+      "front": "What was the name of the song that was associated with the Carlton dance on The Fresh Prince of Bel-Air?",
+      "back": "\"It's Not Unusual\"",
+      "deckId": 10,
+      "id": 45
+    },
+    {
+      "front": "8A",
+      "back": "8B",
+      "deckId": 5,
+      "id": 46
+    },
+    {
+      "front": "100-199",
+      "back": "Indicates an informational response; it is unlikely that you will need to return a response in this range.",
+      "deckId": 11,
+      "id": 47
+    },
+    {
+      "front": "Range: Indicates an informational response; it is unlikely that you will need to return a response in this range.",
+      "back": "100-199",
+      "deckId": 11,
+      "id": 48
+    },
+    {
+      "front": "200-299",
+      "back": "Indicates success; the request was received, understood, and successfully processed.",
+      "deckId": 11,
+      "id": 49
+    },
+    {
+      "front": "Range: Indicates success; the request was received, understood, and successfully processed.",
+      "back": "200-299",
+      "deckId": 11,
+      "id": 50
+    },
+    {
+      "front": "300-399",
+      "back": "Indicates redirection; a resource at a different URL has been substituted for the requested resource.",
+      "deckId": 11,
+      "id": 51
+    },
+    {
+      "front": "Range: Indicates redirection; a resource at a different URL has been substituted for the requested resource.",
+      "back": "300-399",
+      "deckId": 11,
+      "id": 52
+    },
+    {
+      "front": "400-499",
+      "back": "Indicates a client error; there is a problem with the way that the client submitted the request.",
+      "deckId": 11,
+      "id": 53
+    },
+    {
+      "front": "Range: Indicates a client error; there is a problem with the way that the client submitted the request.",
+      "back": "400-499",
+      "deckId": 11,
+      "id": 54
+    },
+    {
+      "front": "500-599",
+      "back": "Indicates a server error; the request was accepted, but an error on the server prevented the request's fulfillment.",
+      "deckId": 11,
+      "id": 55
+    },
+    {
+      "front": "Range: Indicates a server error; the request was accepted, but an error on the server prevented the request's fulfillment.",
+      "back": "500-599",
+      "deckId": 11,
+      "id": 56
+    },
+    {
+      "front": "200",
+      "back": "OK\tThe request is successful.",
+      "deckId": 11,
+      "id": 57
+    },
+    {
+      "front": "OK\tThe request is successful.",
+      "back": "200",
+      "deckId": 11,
+      "id": 58
+    },
+    {
+      "front": "201",
+      "back": "CREATED\tThe request resulted in a resource being successfully created.",
+      "deckId": 11,
+      "id": 59
+    },
+    {
+      "front": "CREATED\tThe request resulted in a resource being successfully created.",
+      "back": "201",
+      "deckId": 11,
+      "id": 60
+    },
+    {
+      "front": "204",
+      "back": "NO CONTENT\tThe request is successful, and nothing is being returned in the response body. DELETE operations often return this.",
+      "deckId": 11,
+      "id": 61
+    },
+    {
+      "front": "NO CONTENT\tThe request is successful, and nothing is being returned in the response body. DELETE operations often return this.",
+      "back": "204",
+      "deckId": 11,
+      "id": 62
+    },
+    {
+      "front": "400",
+      "back": "BAD REQUEST\tThe server cannot process the request because of bad syntax, invalid data, excessive size, or another client error.",
+      "deckId": 11,
+      "id": 63
+    },
+    {
+      "front": "BAD REQUEST\tThe server cannot process the request because of bad syntax, invalid data, excessive size, or another client error.",
+      "back": "400",
+      "deckId": 11,
+      "id": 64
+    },
+    {
+      "front": "403",
+      "back": "FORBIDDEN\tThe client does not have permission to access this resource.",
+      "deckId": 11,
+      "id": 65
+    },
+    {
+      "front": "FORBIDDEN\tThe client does not have permission to access this resource.",
+      "back": "403",
+      "deckId": 11,
+      "id": 66
+    },
+    {
+      "front": "404",
+      "back": "NOT FOUND\tThe resource could not be found at this time. It may have been deleted or does not exist yet.",
+      "deckId": 11,
+      "id": 67
+    },
+    {
+      "front": "NOT FOUND\tThe resource could not be found at this time. It may have been deleted or does not exist yet.",
+      "back": "404",
+      "deckId": 11,
+      "id": 68
+    },
+    {
+      "front": "405",
+      "back": "METHOD NOT ALLOWED\tThe HTTP method is not supported by the target resource.",
+      "deckId": 11,
+      "id": 69
+    },
+    {
+      "front": "METHOD NOT ALLOWED\tThe HTTP method is not supported by the target resource.",
+      "back": "405",
+      "deckId": 11,
+      "id": 70
+    },
+    {
+      "front": "500",
+      "back": "INTERNAL SERVER ERROR\tThe generic answer for an unexpected failure if there is no more specific information available.",
+      "deckId": 11,
+      "id": 71
+    },
+    {
+      "front": "INTERNAL SERVER ERROR\tThe generic answer for an unexpected failure if there is no more specific information available.",
+      "back": "500",
+      "deckId": 11,
+      "id": 72
     }
   ]
 }
